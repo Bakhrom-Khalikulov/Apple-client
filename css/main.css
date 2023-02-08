@@ -174,11 +174,72 @@ a{
     top: -113px;
     right: calc(50% - 835px);
 }
-
-
-
 /* ************** HERO SECTION STYLE ENDS ************** */
 
+
+/* ************** RUN SECTION STYLE STARTS ************** */
+.run-section{
+    margin-bottom: 140px;
+}
+
+
+.run-section__list{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-section__item{
+    width: 280px;
+}
+
+.run-section__item:not(:last-child)::after{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    box-shadow: 18px 0px 0px 0px #ddd, 36px 0px 0px 0px #ddd;
+    content: ""
+}
+
+.run-section__list:not(:last-child){
+    margin-right: 80px;
+}
+
+.run-section__title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.run-section__desc{
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+
+.run-section__link{
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+}
+
+.run-section__link::before{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 0px;
+    border: 2px solid #EA625C;
+    content: "";
+}
+
+/* ************** RUN SECTION STYLE ENDS ************** */
 
 
 
