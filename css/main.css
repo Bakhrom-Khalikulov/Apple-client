@@ -292,9 +292,54 @@ a{
     
 }
 
-
 /* ************** NIKE SECTION STYLE ENDS ************** */
 
+
+/* ************** FOOTER STYLE STARTS ************** */
+
+/* ************** FOOTER STYLE ENDS ************** */
+
+.site-footer{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    padding-left: 700px;
+    background-image: url(../images/runners\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-footer__wrapper--end{
+    width: 530px;
+}
+
+.site-footer__title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.site-footer__desc{
+    margin-top: 0;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    border-left: 3px solid #fff;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.site-footer__link{
+    padding: 12px 46px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #EA625C;
+}
 
 
 
