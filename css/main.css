@@ -179,7 +179,7 @@ a{
 
 /* ************** RUN SECTION STYLE STARTS ************** */
 .run-section{
-    margin-bottom: 140px;
+    margin-bottom: 246px;
 }
 
 
@@ -240,6 +240,61 @@ a{
 }
 
 /* ************** RUN SECTION STYLE ENDS ************** */
+
+
+/* ************** NIKE SECTION STYLE STARTS ************** */
+.nike-section{
+    position: relative;
+    margin-bottom: 177px;
+    
+}
+
+.nike-section__wrapper--start{
+    width: 490px;
+    
+}
+
+.nike-section__title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.nike-section__desc{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+}
+
+.nike-section__link{
+    margin-top: 0;
+    padding: 12px 90px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:  #EA625C;
+}
+
+.nike-section__img{
+    position: absolute;
+    top: -150px;
+    right: calc(50% - 510px);
+    
+}
+
+
+/* ************** NIKE SECTION STYLE ENDS ************** */
+
 
 
 
